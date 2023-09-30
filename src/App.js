@@ -11,23 +11,23 @@ const App = () =>{
     return (
         <>
           <Navbar/>
-          <Route>
+          <Route path="/">
             <Home/>
           </Route>
 
-          <Route>
+          <Route path="/about">
             <About/>
           </Route>
 
-          <Route>
+          <Route path="/contact">
             <Contact/>
           </Route>
 
-          <Route>
+          <Route path="/login">
             <Login/>
           </Route>
 
-          <Route>
+          <Route path="/signup">
             <Signup/>
           </Route>
         </>        
